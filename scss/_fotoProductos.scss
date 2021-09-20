@@ -1,0 +1,37 @@
+$color-pri: #bdc0c1;
+
+
+
+
+
+.productos {
+
+    padding-top: 100px;
+}
+.fondoProductos {
+
+    background-color:$color-pri;
+   
+    
+}
+
+
+
+
+  
+  .img1 {
+    transition: transform 0.5s;
+   
+    
+  }
+  
+  
+  :hover.img1 {
+    transform: scale(0.95);
+  }
+  
+
+  .fotoProducto__texo {
+    text-align: center;
+
+  }
