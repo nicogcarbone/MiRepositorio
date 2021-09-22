@@ -34,11 +34,6 @@ body {
   background-color: #bdc0c1; }
   .barra .navbar-brand {
     background-color: transparent !important; }
-    .barra .navbar-brand .button {
-      display: flex; }
-      .barra .navbar-brand .button a {
-        display: flex;
-        justify-content: space-around; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .fotoProducto {
