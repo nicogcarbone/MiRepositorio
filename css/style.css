@@ -17,7 +17,7 @@ h1 h2 h3 {
 
 .fondo {
   background-image: url(../multimedia/pexels-jason-villanueva-1146562.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
