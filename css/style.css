@@ -16,8 +16,8 @@ h1 h2 h3 {
   background-size: cover; }
 
 .fondo {
-  background-image: url(../multimedia/pexels-scott-webb-2117937.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../multimedia/pexels-jason-villanueva-1146562.jpg);
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed; }
 
@@ -45,6 +45,9 @@ h1 h2 h3 {
     display: flex; }
   .columna {
     flex: 50%; } }
+
+.fondoProductos {
+  background-color: black; }
 
 .productos {
   padding-top: 100px; }
