@@ -2,7 +2,7 @@
 
 
 
-    .fotoProducto  {
+    .container .fotoProducto  {
     
         display:flex;
     }
@@ -11,8 +11,44 @@
         flex: 50%;
     }
     
-    
-        
-    
-      }
-    
+  
+       
+  
+
+    .container-info {
+            padding-top: 200px;
+            display:flex;
+            flex-direction: column;
+            .container-footer {
+                width:100%;
+                iframe {
+                    width: max-content;
+                }
+            }
+         
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

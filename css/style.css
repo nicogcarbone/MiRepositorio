@@ -25,7 +25,7 @@ h1 h2 h3 {
   background-image: url(../multimedia/pexels-pixabay-257736.jpg);
   background-size: cover; }
 
-.info {
+.container-info {
   padding-top: 100px;
   display: flex; }
 
@@ -41,10 +41,18 @@ h1 h2 h3 {
     background-color: transparent !important; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .fotoProducto {
+  .container .fotoProducto {
     display: flex; }
   .columna {
-    flex: 50%; } }
+    flex: 50%; }
+  .container-info {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column; }
+    .container-info .container-footer {
+      width: 100%; }
+      .container-info .container-footer iframe {
+        width: max-content; } }
 
 .fondoProductos {
   background-color: black; }
