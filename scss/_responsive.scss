@@ -1,18 +1,23 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
+//responsive en index
 
-
-    .container .fotoProducto  {
-    
-        display:flex;
+    .container   {
+    padding-top: 100px;
+        
+        .fotoProducto {
+          display: flex;
+           .columna .columna{
+               flex: 50%;
+               
+           }
+        }
     }
     
-    .columna {
-        flex: 50%;
-    }
+   
     
   
-       
+      //responsive en pagina contactos 
   
 
     .container-info {
@@ -28,14 +33,28 @@
          
 }
 
+//responsive para pagina productos
 
 
 
+ .productos-carousel {
+     width: 100%;
+     display: grid;
+     grid-template-areas: "main"
+                          "footer"
+                          ;                  
+grid-template-columns:max-content;
+grid-template-rows: max-content;
+
+.c-1 {
+    grid-area: main;
+}
+.c-2 {
+    grid-area: footer;
+}
 
 
-
-
-
+}
 
 
 
