@@ -37,25 +37,11 @@
 
 
 
- .productos-carousel {
-     width: 100%;
-     display: grid;
-     grid-template-areas: "main"
-                          "footer"
-                          ;                  
-grid-template-columns:max-content;
-grid-template-rows: max-content;
+ 
+.info {
 
-.c-1 {
-    grid-area: main;
+    padding-top: 100px;
 }
-.c-2 {
-    grid-area: footer;
-}
-
-
-}
-
 
 
 

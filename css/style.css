@@ -55,16 +55,8 @@ h1 h2 h3 {
       width: 100%; }
       .container-info .container-footer iframe {
         width: max-content; }
-  .productos-carousel {
-    width: 100%;
-    display: grid;
-    grid-template-areas: "main" "footer";
-    grid-template-columns: max-content;
-    grid-template-rows: max-content; }
-    .productos-carousel .c-1 {
-      grid-area: main; }
-    .productos-carousel .c-2 {
-      grid-area: footer; } }
+  .info {
+    padding-top: 100px; } }
 
 .fondoProductos {
   background-color: black; }
