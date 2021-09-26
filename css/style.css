@@ -35,6 +35,9 @@ h1 h2 h3 {
 .iframe-nosotros {
   color: black; }
 
+.info {
+  padding-top: 100px; }
+
 .barra {
   background-color: lightgrey; }
   .barra .navbar-brand {
