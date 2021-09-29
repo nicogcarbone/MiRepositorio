@@ -1,4 +1,4 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
 
 //responsive en index
 
@@ -43,17 +43,64 @@
     padding-top: 100px;
 }
 
+//responsive pag servicios
 
 
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    overflow: hidden;
+    
+   
+ 
+ .grid-container-col1 {
+       width: fit-content; 
+       img {
+           width: initial;
+       }
+      
+      
+   }
+   .grid-container-col2 {
+     width:fit-content;
+     img {
+         width:initial;
+     }
+   
+   
 
-
-
-
-
-
-
-
-
-
+   }
+   .grid-container-col3 {
+        padding-top: 50px;
+       width: fit-content;
+       img {
+           width: initial;
+       }
+      
+       
+       
+   }
+   h2 {
+       font-size: initial;
+   }
 }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+ 
+
 
