@@ -1,10 +1,11 @@
 $color-pri:black;
+$color-sec: rgb(27, 27, 27);
 
 
 
 
 .fondoProductos {
-  background-color: $color-pri;
+  background-color: $color-sec;
 }
 
 .productos {
@@ -32,6 +33,6 @@ $color-pri:black;
   
 
   .fotoProducto__texo {
-    text-align: center;
-
+    
+    font-weight: 600;
   }

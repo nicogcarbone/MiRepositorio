@@ -6,12 +6,14 @@
     padding-top: 100px;
         
         .fotoProducto {
+            
           display: flex;
            .columna .columna{
                flex: 50%;
                
            }
         }
+        .fotoProducto_texto {display: block;}
     }
     
    
@@ -49,13 +51,17 @@
 .grid-container {
     display: flex;
     flex-direction: column;
-    width: auto;
-    overflow: hidden;
+    justify-content: center;
+    width:auto;
+    overflow:hidden;
+    
+    
     
    
  
  .grid-container-col1 {
-       width: fit-content; 
+     text-align: start;
+       width: initial; 
        img {
            width: initial;
        }
@@ -63,15 +69,17 @@
       
    }
    .grid-container-col2 {
-     width:fit-content;
+     text-align: start;
+     width: initial;
      img {
-         width:initial;
+         width:350px;
      }
    
    
 
    }
    .grid-container-col3 {
+       text-align: start;
         padding-top: 50px;
        width: fit-content;
        img {
