@@ -1,9 +1,14 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
 
 //responsive en index
-
+    .fondo {
+        padding-top: 150px;
+        h1 {
+            text-align: center;
+        }
+    }
     .container   {
-    padding-top: 100px;
+   
         
         .fotoProducto {
             
@@ -23,7 +28,7 @@
   
 
     .container-info {
-            padding-top: 200px;
+            padding-top: 150px;
             display:flex;
             flex-direction: column;
             .container-footer {
@@ -42,7 +47,7 @@
  
 .info {
 
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 //responsive pag servicios

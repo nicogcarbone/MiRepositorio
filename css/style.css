@@ -13,6 +13,7 @@ body {
   background-size: cover; }
 
 .fondo {
+  padding-top: 100px;
   background-image: url(../multimedia/pexels-jason-villanueva-1146562.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,6 +30,9 @@ body {
 .blockquote {
   color: black; }
 
+.card-header-text {
+  color: black; }
+
 .iframe-nosotros {
   color: black; }
 
@@ -41,16 +45,18 @@ body {
     background-color: transparent !important; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  .container {
-    padding-top: 100px; }
-    .container .fotoProducto {
-      display: flex; }
-      .container .fotoProducto .columna .columna {
-        flex: 50%; }
-    .container .fotoProducto_texto {
-      display: block; }
+  .fondo {
+    padding-top: 150px; }
+    .fondo h1 {
+      text-align: center; }
+  .container .fotoProducto {
+    display: flex; }
+    .container .fotoProducto .columna .columna {
+      flex: 50%; }
+  .container .fotoProducto_texto {
+    display: block; }
   .container-info {
-    padding-top: 200px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column; }
     .container-info .container-footer {
@@ -58,7 +64,7 @@ body {
       .container-info .container-footer iframe {
         width: max-content; }
   .info {
-    padding-top: 100px; }
+    padding-top: 150px; }
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -100,6 +106,8 @@ body {
   transform: scale(0.95); }
 
 .fotoProducto__texo {
+  text-align: center;
+  color: #8385af;
   font-weight: 600; }
 
 .grid-container {
