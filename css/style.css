@@ -103,11 +103,10 @@ body {
   text-align: center; }
 
 .img1 {
-  transition: width 2s, height 4s; }
+  transition: transform 0.5s; }
 
 :hover.img1 {
-  width: 500px;
-  height: 500px; }
+  transform: scale(0.95); }
 
 .fotoProducto__texo {
   text-align: center;
@@ -125,9 +124,8 @@ body {
   border-radius: 8px;
   opacity: 0.5; }
 
-.grid-container-col1 .imagen-container-col1 img {
-  opacity: 0.5;
-  border-radius: 8px; }
+.grid-container-col1 {
+  background-color: white; }
 
 .grid-container-col3 .imagen-container-col3 img {
   opacity: 0.5;

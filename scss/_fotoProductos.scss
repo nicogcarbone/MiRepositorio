@@ -21,17 +21,14 @@ $color-sec: rgb(27, 27, 27);
 
   
   .img1 {
-    transition:width 2s, height 4s;
+    transition: transform 0.5s;
    
     
   }
   
   
   :hover.img1 {
-   
-      width: 500px;
-      height: 500px;
-    
+    transform: scale(0.95);
   }
   
 
