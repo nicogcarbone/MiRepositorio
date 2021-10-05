@@ -19,6 +19,9 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
+.fondo-texto {
+  color: #8385af; }
+
 .distr {
   background-image: url(../multimedia/pexels-pixabay-257736.jpg);
   background-size: cover; }
@@ -100,10 +103,11 @@ body {
   text-align: center; }
 
 .img1 {
-  transition: transform 0.5s; }
+  transition: width 2s, height 4s; }
 
 :hover.img1 {
-  transform: scale(0.95); }
+  width: 500px;
+  height: 500px; }
 
 .fotoProducto__texo {
   text-align: center;
