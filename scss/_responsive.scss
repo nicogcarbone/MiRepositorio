@@ -19,9 +19,24 @@
            }
         }
         .fotoProducto_texto {display: block;}
+
     }
     
-   
+    .servicios-svg {
+       
+        display: flex;
+        flex-direction: column;
+       div {
+           width:auto;
+           img {
+               width: auto;
+           }
+       }
+    }
+
+   .servicios-h3 {
+       text-align: center;
+   }
     
   
       //responsive en pagina contactos 
@@ -77,7 +92,7 @@
      text-align: start;
      width: initial;
      img {
-         width:350px;
+         width:initial;
      }
    
    

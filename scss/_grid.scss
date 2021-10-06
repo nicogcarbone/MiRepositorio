@@ -1,8 +1,17 @@
+.container-titulo {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+
+
+}
+
+
 .grid-container {
-padding-top: 200px ;
+
 text-align: center;
 display: flex;
-justify-content:center;
+justify-content:space-between;
 
 align-content: center;
   
@@ -12,25 +21,27 @@ align-content: center;
   
   
     img {
-       border-radius: 8px;
+      
        opacity: 0.5;
    }
   
 }
-.grid-container-col1 {
- background-color: white;
+
+ 
  
 .imagen-container-col1 {
  
-    
+    img {
+      opacity: 0.5;
+    }
 
   }
 
-}
 
 
 
-.grid-container-col3 {
+
+
 
   
   
@@ -44,9 +55,9 @@ align-content: center;
     opacity: 0.5;
     
     
-    border-radius: 8px;
+    
 }
-}
+
 }
 
 

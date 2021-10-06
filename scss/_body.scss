@@ -52,3 +52,20 @@ body {
 .info {
     padding-top: 100px;
 }
+
+
+.servicios-svg {
+
+    display: flex;
+    justify-content: space-around;
+    img {
+        opacity: 0.5;
+    }
+}
+.servicios-h3 {
+    text-decoration: none;
+}
+.h3-link {
+    text-decoration: none;
+    color: r;
+}

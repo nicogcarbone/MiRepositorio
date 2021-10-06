@@ -42,6 +42,19 @@ body {
 .info {
   padding-top: 100px; }
 
+.servicios-svg {
+  display: flex;
+  justify-content: space-around; }
+  .servicios-svg img {
+    opacity: 0.5; }
+
+.servicios-h3 {
+  text-decoration: none; }
+
+.h3-link {
+  text-decoration: none;
+  color: r; }
+
 .barra {
   background-color: #8385af; }
   .barra .navbar-brand {
@@ -58,6 +71,15 @@ body {
       flex: 50%; }
   .container .fotoProducto_texto {
     display: block; }
+  .servicios-svg {
+    display: flex;
+    flex-direction: column; }
+    .servicios-svg div {
+      width: auto; }
+      .servicios-svg div img {
+        width: auto; }
+  .servicios-h3 {
+    text-align: center; }
   .container-info {
     padding-top: 150px;
     display: flex;
@@ -83,7 +105,7 @@ body {
       text-align: start;
       width: initial; }
       .grid-container .grid-container-col2 img {
-        width: 350px; }
+        width: initial; }
     .grid-container .grid-container-col3 {
       text-align: start;
       padding-top: 50px;
@@ -113,20 +135,22 @@ body {
   color: #8385af;
   font-weight: 600; }
 
-.grid-container {
+.container-titulo {
   padding-top: 200px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.grid-container {
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center; }
 
 .imagen-container-col2 img {
-  border-radius: 8px;
   opacity: 0.5; }
 
-.grid-container-col1 {
-  background-color: white; }
+.imagen-container-col1 img {
+  opacity: 0.5; }
 
-.grid-container-col3 .imagen-container-col3 img {
-  opacity: 0.5;
-  border-radius: 8px; }
+.imagen-container-col3 img {
+  opacity: 0.5; }
