@@ -27,11 +27,9 @@ $color-sec: rgb(27, 27, 27);
   .columna {
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
   }
-  .columna2 {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
 
 
   .cont {

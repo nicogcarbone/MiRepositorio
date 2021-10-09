@@ -126,11 +126,8 @@ body {
 
 .columna {
   display: flex;
-  flex-wrap: wrap; }
-
-.columna2 {
-  display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .cont {
   position: relative;
