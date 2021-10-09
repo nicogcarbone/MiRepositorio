@@ -8,15 +8,13 @@
         }
     }
     .container   {
-   
         
-        .fotoProducto {
+        
+        .columna {
             
           display: flex;
-           .columna .columna{
-               flex: 50%;
-               
-           }
+          justify-content: center;
+           
         }
         .fotoProducto_texto {display: block;}
 
@@ -26,10 +24,15 @@
        
         display: flex;
         flex-direction: column;
+    
        div {
-           width:auto;
+          display: flex;
+           justify-content: center;
+           
+
            img {
-               width: auto;
+               
+             
            }
        }
     }
