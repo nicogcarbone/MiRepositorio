@@ -55,6 +55,11 @@ body {
 .h3-link {
   text-decoration: none; }
 
+.prod {
+  padding-top: 50px; }
+  .prod h1 {
+    color: #8385af; }
+
 .barra {
   background-color: #8385af; }
   .barra .navbar-brand {
@@ -86,6 +91,10 @@ body {
       width: 100%; }
       .container-info .container-footer iframe {
         width: max-content; }
+  .prod {
+    padding-top: 95px; }
+    .prod .prod-text h1 {
+      font-size: 16px !important; }
   .info {
     padding-top: 150px; }
   .grid-container {
