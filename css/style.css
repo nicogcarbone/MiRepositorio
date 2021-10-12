@@ -104,19 +104,16 @@ body {
     width: auto;
     overflow: hidden; }
     .grid-container .grid-container-col1 {
-      text-align: start;
       width: initial; }
       .grid-container .grid-container-col1 img {
         width: initial; }
     .grid-container .grid-container-col2 {
-      text-align: start;
       width: initial; }
       .grid-container .grid-container-col2 img {
         width: initial; }
     .grid-container .grid-container-col3 {
-      text-align: start;
       padding-top: 50px;
-      width: fit-content; }
+      width: initial; }
       .grid-container .grid-container-col3 img {
         width: initial; }
     .grid-container h2 {
