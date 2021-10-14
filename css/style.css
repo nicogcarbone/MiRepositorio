@@ -49,8 +49,9 @@ body {
     opacity: 0.5; }
 
 .servicios-h3 {
-  text-decoration: none;
-  color: #8385af; }
+  color: #8385af;
+  padding-bottom: 50px;
+  font-size: 50px; }
 
 .h3-link {
   text-decoration: none; }
@@ -59,6 +60,31 @@ body {
   padding-top: 50px; }
   .prod h1 {
     color: #8385af; }
+
+.cuotas {
+  background-image: url(../multimedia/pexels-felix-mittermeier-956999.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.cuotas-cont {
+  display: flex;
+  justify-content: space-around; }
+
+.cuotas-cont-1 p {
+  font-size: 50px; }
+
+.cuotas-cont-1 .num {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600; }
+
+.cuotas-cont-2 {
+  display: flex; }
+  .cuotas-cont-2 p {
+    padding-top: 110px;
+    font-size: 70px;
+    font-weight: 600; }
 
 .barra {
   background-color: #8385af; }
@@ -75,6 +101,21 @@ body {
     justify-content: center; }
   .container .fotoProducto_texto {
     display: block; }
+  .cuotas-cont {
+    width: auto;
+    display: flex;
+    flex-direction: column; }
+    .cuotas-cont .cuotas-cont-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .cuotas-cont .cuotas-cont-1 p {
+        text-align: center;
+        justify-content: center; }
+      .cuotas-cont .cuotas-cont-1 img {
+        display: none; }
+    .cuotas-cont .cuotas-cont-2 p {
+      text-align: center; }
   .servicios-svg {
     display: flex;
     flex-direction: column; }
@@ -170,6 +211,11 @@ body {
   padding-top: 200px;
   padding-bottom: 50px;
   text-align: center; }
+
+.servicios-fondo {
+  background-image: url(../multimedia/pexels-jason-villanueva-1146562.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .grid-container {
   text-align: center;

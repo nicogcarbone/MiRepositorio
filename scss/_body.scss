@@ -57,9 +57,12 @@ body {
   }
 }
 .servicios-h3 {
-  text-decoration: none;
+  
   color: rgb(131, 133, 175);
+  padding-bottom: 50px;
+  font-size: 50px;
 }
+
 .h3-link {
   text-decoration: none;
 }
@@ -68,5 +71,38 @@ body {
   padding-top: 50px;
   h1 {
     color: rgb(131, 133, 175);
+  }
+}
+
+.cuotas {
+  background-image:url(../multimedia/pexels-felix-mittermeier-956999.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+.cuotas-cont {
+  display: flex;
+  justify-content: space-around;
+}
+.cuotas-cont-1{
+  
+  p {
+    
+    
+    font-size: 50px;
+  }
+ .num {
+    text-align: center;
+    font-size:100px;
+    font-weight: 600;
+  }
+}
+.cuotas-cont-2 {
+  display: flex;
+  p{
+   padding-top: 110px;
+    font-size: 70px;
+    font-weight: 600;
   }
 }
