@@ -61,6 +61,12 @@ body {
   .prod h1 {
     color: #8385af; }
 
+.cuotas {
+  background-image: url(../multimedia/pexels-felix-mittermeier-956999.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
 .cuotas-cont {
   display: flex;
   justify-content: space-around; }
@@ -98,8 +104,7 @@ body {
   .cuotas {
     background-image: url(../multimedia/pexels-felix-mittermeier-956999.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; }
+    background-size: cover; }
   .cuotas-cont {
     width: auto;
     display: flex;
