@@ -19,7 +19,13 @@
         .fotoProducto_texto {display: block;}
 
     }
-    
+    .cuotas {
+        background-image:url(../multimedia/pexels-felix-mittermeier-956999.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+      
+      }
     .cuotas-cont {
         width: auto;
         display: flex;
